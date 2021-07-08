@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3857868265748538271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7348081394226567342}
+  - component: {fileID: 3840181569031412622}
+  - component: {fileID: 7128245875625402314}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7348081394226567342
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3857868265748538271}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3840181569031412622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3857868265748538271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1490089975534d7438ba119ae0b9cb65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startHealth: 100
+  selectObject: {fileID: 4783050102189003736, guid: 0d78c0f5b70de9f4290cbd0f4637e01a, type: 3}
+  objects:
+  - {fileID: 4783050102189003736, guid: 0d78c0f5b70de9f4290cbd0f4637e01a, type: 3}
+  - {fileID: 4340552420000239766, guid: 3b673782ea5a3f94684183b9cbbd5a7e, type: 3}
+  - {fileID: 7570491842352787143, guid: 629dd572bff7e6b439400faece876e53, type: 3}
+  - {fileID: 4340552420000239766, guid: 6a97a71b1991b5f4fbcfb84df2c712f5, type: 3}
+  - {fileID: 4340552420000239766, guid: f07018ae79533df40881e2b47fdaabfa, type: 3}
+  startCurrency: 600
+--- !u!114 &7128245875625402314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3857868265748538271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5e7c42e9ae38984cabe75ca873d34f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggleInGameUI: 102
+  togglePauseUI: 27
